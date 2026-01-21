@@ -7,11 +7,11 @@ export interface ColumnProps extends PropsWithChildren {
 }
 export function Column({title, children}: ColumnProps) {
   return (
-    <div aria-label={`Column: ${title}`} className={style.column}>
-     <div className={style.title}>
-    <Tag shape="pill" size="medium">{title}</Tag>
-     </div>
-    {children}
-  </div> 
+    <section aria-labelledby={`Column-${title}`} className={style.column}>
+      <div className={style.title} id={`Column-${title}`}>
+        <Tag shape="pill" size="medium">{title}</Tag>
+      </div>
+      {children}
+    </section> 
   )
 }
