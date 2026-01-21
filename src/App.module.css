@@ -14,9 +14,18 @@
     color: var(--color-text-secondary);
 }
 
+.boardWrapper {
+    display: flex;
+    overflow-x: auto;
+}
+
 .board {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-flow: column;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
     gap: 12px;
     align-items: start;
     border: 1px solid #0000000D;

@@ -10,6 +10,7 @@ function App() {
         <h1 className={style.title}>Design weekly</h1>
         <h5 className={style.subtitle}>A board to keep track of design progress.</h5>
       </header>
+      <div className={style.boardWrapper}>
       <main aria-label='board' className={style.board}>
         <Column title='Last week'>
           <Card title='Review scope' tags={['Due 4/11', 'Design']}>Review #390.</Card>
@@ -22,6 +23,7 @@ function App() {
           <Card title='Culture workshop' tags={['Due 24/11']} participants={[participants[0]]}>Let's build a great team.</Card>
         </Column>
       </main>
+      </div>
     </>
   )
 }
