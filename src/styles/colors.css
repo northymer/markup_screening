@@ -1,0 +1,9 @@
+:root {
+    --color-text-primary: #212121;
+    --color-text-secondary: #5A5A65;
+    --color-text-muted: #4D4D4D;
+
+    --color-bg-grey: #E1E4E8;
+    --color-bg-pink: #FFDCE0;
+    --color-bg-light-grey: #F7F7F7;
+}
