@@ -1,12 +1,12 @@
 :root {
-  --font-body: 400 14px/100% Inter, sans-serif;
+  --font-body: 400 14px/17px Inter, sans-serif;
   --font-body-letter-spacing: 0.1px;
 
-  --font-small: 500 14px/100% Inter, sans-serif;
+  --font-small: 500 14px/17px Inter, sans-serif;
   --font-small-letter-spacing: -0.4px;
 
-  --font-semibold: 600 16px/100% Inter, sans-serif;
+  --font-semibold: 600 16px/19px Inter, sans-serif;
   --font-semibold-letter-spacing: -0.2px;
 
-  --font-heading: 700 32px/100% Inter, sans-serif;
+  --font-heading: 700 32px/39px Inter, sans-serif;
 }
